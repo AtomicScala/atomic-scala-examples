@@ -8,5 +8,5 @@ scalaVersion := "2.10.1"
 Seq(
   scalaSource in Compile <<= baseDirectory / "app",
   javaSource in Compile <<= baseDirectory / "app",
-  sourceDirectory in Compile <<= baseDirectory / "app",
+  sourceDirectory in Compile <<= baseDirectory / "app"
 )
