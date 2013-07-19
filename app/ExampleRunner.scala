@@ -1,3 +1,6 @@
 object ExampleRunner extends App {
-  // todo
+
+  // either pass the file name as an argument or specify it here
+  utils.RunFile(args.headOption.getOrElse("Try.scala"))
+
 }
