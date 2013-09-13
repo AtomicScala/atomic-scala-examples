@@ -16,3 +16,4 @@ dist
 _testerrors.txt
 AtomicLog.txt
 _AtomicTestErrors.txt
+/project/*shim.sbt
