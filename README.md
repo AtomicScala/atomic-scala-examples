@@ -13,9 +13,9 @@ and directories, which are used by Typesafe Activator.
 Within the "examples" directory you will find all the example files from the
 book, as well as several build scripts (for different platforms and/or shells):
 
-  - Testall.bat for Windows command shell
-  - Testall.ps1 for Windows PowerShell
-  - Testall.sh for Macintosh and Linux
+  - **Testall.bat** for Windows command shell
+  - **Testall.ps1** for Windows PowerShell
+  - **Testall.sh** for Macintosh and Linux
 
 Full instructions on installation and use are in the book itself.
 
