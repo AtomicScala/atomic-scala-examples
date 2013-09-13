@@ -12,3 +12,7 @@ dist
 /.classpath
 /.project
 /RUNNING_PID
+*.class
+_testerrors.txt
+AtomicLog.txt
+_AtomicTestErrors.txt
