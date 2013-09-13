@@ -1,7 +1,7 @@
 Atomic Scala Examples
 =====================
 
-Examples from the book "Atomic Scala" by Bruce Eckel &amp; Dianne Marsh. Also 
+Examples from the book *Atomic Scala* by Bruce Eckel &amp; Dianne Marsh. Also 
 includes the necessary code to make it work within Typesafe Activator.
 
 When you download this package (see the "download ZIP" button on the right when
