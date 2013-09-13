@@ -24,4 +24,4 @@ shell script (Macintosh & Linux) or the **activator.bat** batch file (Windows),
 which you will find in the main directory of the unzipped download.
 
 If you discover problems or errors, please report them to:
-https://github.com/AtomicScala/corrections/issues
+https://github.com/AtomicScala/atomic-scala-corrections/issues
