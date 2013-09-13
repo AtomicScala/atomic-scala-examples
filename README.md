@@ -4,7 +4,8 @@ Atomic Scala Examples
 Examples from the book "Atomic Scala" by Bruce Eckel &amp; Dianne Marsh. Also 
 includes the necessary code to make it work within Typesafe Activator.
 
-When you download this package (see the "download ZIP" button on the right),
+When you download this package (see the "download ZIP" button on the right when
+viewing the page https://github.com/AtomicScala/atomic-scala-examples),
 you'll get a package with a number of directories; the only one you need to follow
 the book examples is the one titled "examples". You can ignore the rest of the files
 and directories, which are used by Activator.
