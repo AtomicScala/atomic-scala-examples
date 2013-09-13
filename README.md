@@ -20,7 +20,8 @@ book, as well as several build scripts (for different platforms and/or shells):
 Full instructions on installation and use are in the book itself.
 
 If you *want* to use Typesafe Activator instead, simply run the **activator**
-shell script  (Macintosh & Linux) or the **activator.bat** batch file (Windows)
+shell script (Macintosh & Linux) or the **activator.bat** batch file (Windows),
+which you will find in the main directory of the unzipped download.
 
 If you discover problems or errors, please report them to:
 https://github.com/AtomicScala/corrections/issues
