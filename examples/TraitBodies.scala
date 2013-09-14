@@ -1,12 +1,12 @@
 // TraitBodies.scala
 
 trait AllAbstract {
-  def f(n:Int): Int
+  def f(n:Int):Int
   val d:Double
 }
 
 trait PartialAbstract {
-  def f(n:Int): Int
+  def f(n:Int):Int
   val d:Double
   def g(s:String) = s"($s)"
   val j = 42

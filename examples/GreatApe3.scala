@@ -25,7 +25,7 @@ class Chimpanzee extends GreatApe {
   val kind = "Common" // New field
 }
 
-def talk(ape:GreatApe):String = {
+def talk(ape:GreatApe) = {
   // ape.run()  // Not an ape method
   // ape.jump // Nor this
   ape.climb(4)

@@ -6,4 +6,4 @@ calculateBMI(100, 68) is "Underweight"
 calculateBMI(200, 68) is "Overweight"
 
 def calculateBMI(lbs: Int,
-  height: Int) = { "Normal weight" }
+  height: Int):String = { "Normal weight" }

@@ -4,7 +4,7 @@ import com.atomicscala.AtomicTest._
 testSeq(Vector(1, 7, 22, 11, 17))
 testSeq(List(1, 7, 22, 11, 17))
 
-def testSeq(s:Seq[Int]) {
+def testSeq(s:Seq[Int]) = {
   // Is there anything inside?
   s.isEmpty is false
   // How many elements inside?
