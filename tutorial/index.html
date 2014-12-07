@@ -21,7 +21,7 @@
     <p>
         All of the examples from the book can be found in the <a href="#code/examples" class="shortcut">examples directory</a>.  Select a file to edit it.  Run an example from the Activator UI by editing <a href="#code/app/ExampleRunner.scala" class="shortcut">ExampleRunner.scala</a> and putting the file name into the <code>getOrElse</code> part, like:
         <pre><code>utils.RunFile(args.headOption.getOrElse("DivZero.scala"))</code></pre>
-        Then in <a href="#run" class="shortcut">Run</a> select <code>ExampleRunner</code> from the drop-down menu and click the <em>Start</em> button.  Whenever the code changes, the file specified in <a href="#code/app/ExampleRunner.scala" class="shortcut">ExampleRunner.scala</a> will automatically be re-run.  If you want to run a different file simply change the file name there and click the <em>Save</em> button.<br/>
+        Then in <a href="#run" class="shortcut">Run</a> click the <em>Start</em> button. After the successful build of the code, you will see a list of main classes, ExampleRunner should be selected but if it's not, select that one. Whenever the code changes, the file specified in <a href="#code/app/ExampleRunner.scala" class="shortcut">ExampleRunner.scala</a> will automatically be re-run.  If you want to run a different file simply change the file name there and click the <em>Save</em> button.<br/>
         <br/>
         The examples can also be run from the command line by running the following from the main project directory (omit the ./ on Windows):
         <pre><code>./activator "run-main ExampleRunner"</code></pre>
