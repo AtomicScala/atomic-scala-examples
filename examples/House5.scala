@@ -9,14 +9,14 @@ trait Cook[T]
 trait Clean[T]
 trait Food extends Store[Food]
   with Clean[Food] with Cook[Food]
-trait Utensils extends Store[Utensils]
-  with Clean[Utensils] with Cook[Utensils]
+trait Utensil extends Store[Utensil]
+  with Clean[Utensil] with Cook[Utensil]
 
 trait Kitchen extends Room {
   val storage:Storage
   val sinks:Vector[Sink]
   val food:Food
-  val utensils:Utensils
+  val utensils:Vector[Utensil]
 }
 
 trait House extends Building {

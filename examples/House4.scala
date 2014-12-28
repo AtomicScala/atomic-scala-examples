@@ -2,14 +2,14 @@
 
 trait Building
 trait Food
-trait Utensils
+trait Utensil
 trait Store[T]
 trait Cook[T]
 trait Clean[T]
 trait Kitchen extends Store[Food]
-  with Cook[Food] with Clean[Utensils]
+  with Cook[Food] with Clean[Utensil]
   // Oops. Can't do this:
-  // with Store[Utensils]
+  // with Store[Utensil]
   // with Clean[Food]
 
 trait House extends Building {
