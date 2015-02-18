@@ -16,7 +16,7 @@ val isOpen = {
       false
     }
   } else {
-    true
+    false
   }
 }
 

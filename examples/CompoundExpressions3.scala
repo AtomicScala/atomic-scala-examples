@@ -11,7 +11,7 @@ val isOpen = {
       opens + " - " + closes)
     (hour >= opens && hour <= closes)
   } else {
-    true
+    false
   }
 }
 
