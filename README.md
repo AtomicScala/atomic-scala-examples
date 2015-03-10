@@ -10,6 +10,8 @@ get a package with a number of directories; the only one you need to follow the
 book examples is the directory titled "examples." You can ignore the rest of the
 files and directories, which are used by Typesafe Activator.
 
+(This is for the 2nd edition of the book, but you can still find the examples for Version 1.1 of the book in **examples-V1.1**).
+
 Move the "examples" directory into your C:\AtomicScala folder.
 
 Within the "examples" directory you will find all the example files from the
