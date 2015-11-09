@@ -17,3 +17,8 @@ _testerrors.txt
 AtomicLog.txt
 _AtomicTestErrors.txt
 /project/*shim.sbt
+/.sbtserver/
+/project/.sbtserver
+/project/.sbtserver.lock
+/project/sbt-ui.sbt
+
