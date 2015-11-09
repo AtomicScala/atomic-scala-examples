@@ -14,7 +14,8 @@ libraryDependencies := Seq(
 )
 
 // Note: These settings are defaults for Activator but can be changed.
-Seq(
-  scalaSource in Compile <<= baseDirectory / "app",
-  sourceDirectory in Compile <<= baseDirectory / "app"
-)
+scalaSource in Compile <<= baseDirectory / "app"
+
+sourceDirectory in Compile <<= baseDirectory / "app"
+
+fork in run := true
