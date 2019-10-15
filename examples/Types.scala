@@ -14,8 +14,8 @@ println(whole, fractional,
 println(lines)
 
 /* Output:
-(11,1.4,true,c,A value)
-Triple quotes allow
-you to have many lines
+(11,1.4,true,A value)
+Triple quotes let
+you have many lines
 in your string
 */
